@@ -1,0 +1,95 @@
+.space{
+	margin-top: 5%;
+}
+.heading_cal{
+	font-size: 30px;
+	font-weight: 600;
+}
+.calculator {
+	width: 325px;
+	height: 355px;
+	margin: 100px auto;
+	padding: 20px 20px 9px;
+	background: silver;
+	border-radius: 25px;	
+}
+.inputfield
+{
+	height: 40px;
+	width: 250px;
+	border-radius: 20px;
+	text-align: right;
+	font-size: 25px;
+	line-height: 30px;
+	letter-spacing: 5px;
+	background: #96ae8d;
+	font-family: 'Orbitron';
+}
+.keys
+{
+	position: relative;
+	top:15px;
+}
+.btnclass
+{
+	font-size: 18px;
+	float: left;
+	position: relative;
+	top: 0;
+	margin:1px;
+	cursor: pointer;
+	width: 66px;
+	height: 36px;
+	background: white;
+	border-radius: 3px;
+	box-shadow: 0px 4px rgba(0, 0, 0, 0.2);
+	margin-left: 3%;
+	color: #888;
+	line-height: 36px;
+	text-align: center;
+	user-select: none;
+	transition: all 0.2s ease;
+	margin-top: 3%;
+}
+.btnclassspl
+{
+	color: white;
+	font-size: 18px;
+	float: left;
+	position: relative;
+	top: 0;
+	margin:1px;
+	cursor: pointer;
+	width: 66px;
+	height: 36px;
+	background: #6699ff;
+	border-radius: 3px;
+	box-shadow: 0px 4px rgba(0, 0, 0, 0.2);
+	margin-left: 3%;
+	line-height: 36px;
+	text-align: center;
+	user-select: none;
+	transition: all 0.2s ease;
+	margin-top: 3%;
+}
+.btnclass:hover {
+	background: #6699ff;
+	box-shadow: 0px 4px #6699ff;
+	color: white;
+}
+.btnclassspl:hover {
+	background: ;
+	box-shadow: 0px 4px #6699ff;
+	color: white;
+}
+}
+.btnclass:active {
+	box-shadow: 0px 0px #6b54d3;
+	top: 4px;
+}
+
+.btnclass:active {
+	box-shadow: 0px 0px #717a33;
+	top: 4px;
+}
+

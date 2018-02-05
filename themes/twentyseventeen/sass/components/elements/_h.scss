@@ -1,0 +1,54 @@
+/**
+ * @file
+ * This file creates the styling for the h elements.
+ */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  clear: both;
+	line-height: 1.4;
+	margin: 0 0 0.75rem;
+	padding: 1.5rem 0 0;
+  &:first-child {
+    padding-top: 0;
+  }
+  a {
+    text-decoration: none;
+    &:focus,
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+h1 {
+  font-size: $h1-font-size;
+  font-weight: 300;
+}
+h2 {
+  color: $colour-grey-medium-lighter;
+  font-size: $h2-font-size;
+  font-weight: 300;
+}
+h3 {
+  font-size: $h3-font-size;
+}
+h4 {
+  font-size: $h4-font-size;
+  font-weight: 800;
+}
+h5 {
+  color: $colour-grey-light;
+  font-size: $h5-font-size;
+  font-weight: 800;
+  letter-spacing: 0.15rem;
+  text-transform: uppercase;
+}
+h6 {
+  font-size: $h6-font-size;
+  font-weight: 800;
+}

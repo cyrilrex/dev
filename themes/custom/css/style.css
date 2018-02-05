@@ -1,0 +1,123 @@
+/**
+ * Place your custom styles here.
+ */
+#block-custom-search{
+    float: right;
+    width: 25%;
+    /* display: inline-block; */
+    margin: 0 auto;
+    /* margin-left: 335px; */
+    margin-left: 15px;
+    margin-top: 0px;
+}
+#block-custom-account-menu{
+    float: left;
+    width: 25%;
+}
+#block-custom-mainnavigation{
+    float: left;
+    width: 45%;
+}
+.region .region-navigation{
+    width: 100%;
+    display: inline-flex;
+}
+#search-block-form{
+	margin-top:8px;
+}
+.footer .nav{
+    /*border:1px solid #ccc;*/
+    border-width:1px 0;
+    list-style:none;
+    margin:0;
+    padding:0;
+    text-align:center;
+}
+.footer .nav li{
+    display:inline;
+}
+.footer .nav a{
+    display:inline-block;
+    padding:10px;
+}
+.region .region-footer{
+	width:100%;
+    background-color: #222;
+    padding-top: 30px;
+
+}
+#block-copyrightsblock{
+
+    float: left;
+    width: 50%;
+
+}
+#block-footer{	
+    float: right;
+    width: 50%;
+}
+ul.menu.nav.footer {
+    border-top: none;
+    padding: 0px !important;
+}
+.navbar-default{
+    background-color: #222 !important;
+}
+.footer{
+    background-color: #222;
+    color: white!important;
+    padding-top: 20px !important;
+    padding-bottom: 20px !important;
+}
+ .view-home-gym-feeds .views-view-grid .views-col{
+vertical-align: middle;
+background-color:black;
+color: white;
+border: 1px solid grey;
+border-radius: 15px;
+width:30% !important;
+margin:1%;
+background-image:url("bb3.jpg");
+background-repeat: no-repeat; 
+ }
+ .view-home-gym-feeds .views-view-grid .views-col .views-field-body .field-content p{
+ padding-left: 5%; 
+
+ }
+ .view-image-listing .views-col{
+    margin-bottom:6%;
+ }
+ .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus{
+    color:#fff;
+ }
+ .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus{
+    color:#fff;
+    background-color:transparent;
+ }
+ .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus{
+    color:#fff;
+    background-color:transparent;
+ }
+
+
+.nav > li >a:active, .nav > li > a:hover, .nav > li > a:focus{
+    color:#fff;
+    background-color:transparent;
+}
+
+.nav > li > a {
+    color:#777;
+}
+.grow:hover
+{
+        -webkit-transform: scale(1.3);
+        -ms-transform: scale(1.3);
+        transform: scale(1.3);
+}
+.panel-body{
+    color:white!important;
+    font-size:16px; 
+    margin: 3.5%;
+    background-image: url(/gym-management/themes/custom/bb3.jpg);
+    border: 3px solid grey;
+}

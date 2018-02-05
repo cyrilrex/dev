@@ -1,0 +1,30 @@
+/**
+ * @file
+ * This file creates the styling for the table element.
+ */
+
+table {
+  border-collapse: collapse;
+  margin: 0 0 1.5rem;
+  width: 100%;
+}
+
+table tr {
+  border-bottom: 1px solid $colour-grey-lightest;
+}
+
+table tr td {
+  padding: 0.4rem 0;
+}
+
+table th {
+  padding: 0.4rem 0;
+  text-align: left;
+  &:first-child {
+    padding-left: 0;
+  }
+}
+
+table a.tabledrag-handle .handle {
+  padding: 1rem;
+}

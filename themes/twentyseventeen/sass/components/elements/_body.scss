@@ -1,0 +1,19 @@
+/**
+ * @file
+ * This file creates the styling for the body element.
+ */
+
+body {
+  background: url('../images/header__not-front.jpg') no-repeat;
+  color: $colour-primary;
+  overflow-x: hidden;
+  &.path-frontpage {
+    background: url('../images/header.jpg') no-repeat 50% 50%;
+    background-size: cover;
+  }
+}
+
+body .post-header {
+  background: $white;
+  padding-top: 2rem;
+}

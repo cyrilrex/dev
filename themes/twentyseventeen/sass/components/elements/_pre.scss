@@ -1,0 +1,17 @@
+/**
+ * @file
+ * This file creates the styling for the pre element.
+ */
+
+pre {
+  background: $colour-grey-lightest;
+  font-family: $courier;
+  font-size: $h6-font-size;
+  line-height: 1.6;
+  margin-bottom: 1.6rem;
+  max-width: 100%;
+  overflow: auto;
+  padding: 1.6rem;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}

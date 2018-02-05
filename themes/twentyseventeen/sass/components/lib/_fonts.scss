@@ -1,0 +1,31 @@
+/**
+ * @file
+ * This file lists/imports the fonts that we are going to use in the theme.
+ */
+
+@import url('https://fonts.googleapis.com/css?family=Libre+Franklin:300,300i,400,400i,700,700i,800,800i');
+
+//
+// Font faces, stacks and sizes.
+//
+
+$base-font-size:   16px; // The font size set on the root html element.
+$base-line-height: 1.5; // This line-height determines the basic unit of vertical rhythm.
+
+$h1-font-size: 1.875  * $base-font-size;
+$h2-font-size: 1.625  * $base-font-size;
+$h3-font-size: 1.125  * $base-font-size;
+$h4-font-size: 1      * $base-font-size;
+$h5-font-size: 0.8125 * $base-font-size;
+$h6-font-size: 0.9375 * $base-font-size;
+
+// First, let's create some font stacks.
+$arial:           Arial, Helvetica, "Nimbus Sans L", sans-serif;
+
+// For an explanation of why "sans-serif" is at the end of this list, see
+// http://meyerweb.com/eric/thoughts/2010/02/12/fixed-monospace-sizing/
+$courier:         "Courier New", "DejaVu Sans Mono", monospace, sans-serif;
+
+// Now create some variables for the font stacks we want to use on this site.
+$font1: "Libre Franklin", $arial;
+$font2: $font1;

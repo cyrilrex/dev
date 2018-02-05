@@ -1,0 +1,13 @@
+sample-style:
+  version: VERSION
+  css:
+    base:
+      css/base/elements.css: {}
+    component:
+      css/bootstrap.css: {}
+      css/bootstrap.min.css: {}
+      css/style.css: {}
+  js:
+    js/bootstrap.min.js: {}  
+    js/bootstrap.js: {} 
+    js/custom.js: {} 

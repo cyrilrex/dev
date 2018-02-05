@@ -1,0 +1,40 @@
+/**
+ * @file
+ * This file lists the colours that we are going to use in the theme.
+ *
+ * Please keep the number of colours to a minimum for sake of maintainability.
+ *
+ * If using greys, let's not have 50 shades of them.
+ *
+ * We put the world 'colour' as a prefix on all our colours here so they show
+ * up beside each other when typing '$colour-...' in Atom with the Pigments
+ * plugin.
+ */
+
+/* Default Colours */
+$black: #000;
+$white: #fff;
+
+/* Theme Colours */
+$colour-primary:          #333333;
+$colour-primary-light:    lighten($colour-primary, 20%);
+$colour-primary-dark:     darken($colour-primary, 20%);
+
+$colour-secondary:        #666666;
+$colour-secondary-light:  lighten($colour-secondary, 20%);
+$colour-secondary-dark:   darken($colour-secondary, 20%);
+
+$colour-tertiary:         #333333;
+$colour-tertiary-light:   lighten($colour-tertiary, 20%);
+$colour-tertiary-dark:    darken($colour-tertiary, 20%);
+
+/* Greys */
+$colour-grey-lightest: #dddddd; // In Use.
+$colour-grey-lighter: #bbbbbb; // In Use.
+$colour-grey-light: #767676; // In Use.
+$colour-grey-medium-lighter: #666666; // In Use.
+$colour-grey-medium: #555555;
+$colour-grey-medium-darker: #444444;
+$colour-grey-dark: #333333;
+$colour-grey-darker: #222222; // In Use.
+$colour-grey-darkest: #111111;

@@ -1,0 +1,17 @@
+
+// The amount lists, blockquotes and comments are indented.
+$indent-amount: 30px;
+
+// Box Sizing all the things
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+// =============================================================================
+// Partials to be shared with all .scss files.
+// =============================================================================

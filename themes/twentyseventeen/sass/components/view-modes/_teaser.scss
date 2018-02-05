@@ -1,0 +1,47 @@
+/**
+ * @file
+ * This file is used to style nodes when viewed using the 'Teaser' view mode.
+ */
+
+.node--view-mode-teaser .field--name-field-image {
+  float: left;
+  margin-right: 1rem;
+}
+
+.node--view-mode-teaser .field--name-body {
+  overflow: hidden;
+}
+
+.node--view-mode-teaser .node__submitted {
+  background: $colour-grey-lightest;
+  margin-bottom: 1rem;
+  padding: .5rem 1rem;
+}
+
+.node--view-mode-teaser .field--name-field-tags {
+  clear: both;
+  margin-bottom: 1rem;
+}
+
+.node--view-mode-teaser .field--name-field-tags .field__item {
+  display: inline;
+  &::after {
+    content: ", ";
+  }
+  &:last-of-type::after {
+    content: "";
+  }
+}
+
+.node--view-mode-teaser .node__links{
+  background: $colour-grey-lightest;
+  margin-bottom: 1rem;
+  padding: .5rem 1rem;
+}
+
+.node--view-mode-teaser::after {
+  border-bottom: 1px solid $colour-grey-lightest;
+  content: "";
+  display: block;
+  margin: 2rem 0;
+}

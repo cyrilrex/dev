@@ -1,0 +1,102 @@
+/**
+ * @file
+ * This file creates the out layout of the site and all the regions.
+ */
+
+// This max-width variable is the max width of the main content area.
+// We set it here one can then it is used by Susy and also by the
+// .layout-contained class.
+$max-width: 1024px;
+$susy: (
+  columns: 12,
+  container: $max-width,
+  gutters: 1/4,
+  global-box-sizing: border-box,
+  debug: (image: show)
+);
+
+/* The Layout Contained class is a handy one for wrapper around all elements
+that we want to have centered on the page, but also want them to have 100%
+width backgrounds so we can put a full widh background colour on them.
+
+For example, you might want a 100% width red background on the navigation,
+but want the menu links 'contained' within the width of the content area. */
+.layout-contained {
+  max-width: $max-width;
+  margin: auto;
+}
+
+/* Layout when there is only one sidebar */
+/* Layout for Sidebar First and Main Content */
+.layout-one-sidebar.layout-sidebar-first {
+  @include breakpoint($large) {
+    .layout-content {
+      @include span(8 last);
+    }
+    .layout-region-sidebar-first {
+      @include span(4);
+    }
+  }
+}
+
+/* Layout for Sidebar Second and Main Content */
+.layout-one-sidebar.layout-sidebar-second {
+  @include breakpoint($large) {
+    .layout-content {
+      @include span(8);
+    }
+    .layout-region-sidebar-second {
+      @include span(4 last);
+    }
+  }
+}
+
+/* Layout there are two sidebars */
+.layout-two-sidebars {
+  @include breakpoint($medium) {
+    .layout-content {
+      @include span(12 of 12);
+    }
+    .layout-region-sidebar-first {
+      @include span(6 of 12);
+    }
+    .layout-region-sidebar-second {
+      @include span(6 of 12 last);
+    }
+  }
+  @include breakpoint($large) {
+    .layout-content {
+      margin-left: span(3);
+
+      @include span(6 at 4 of 12);
+    }
+    .layout-region-sidebar-first {
+      margin-left: span(-9);
+
+      @include span(3 first);
+    }
+    .layout-region-sidebar-second {
+      @include span(3 last);
+    }
+  }
+}
+
+/* Left and Right are two small classes that I use in the 'Copyright'
+section of the page.html.twig file */
+.left {
+  text-align: center;
+
+  @include breakpoint($medium) {
+    float: left;
+    text-align: left;
+  }
+}
+
+.right {
+  text-align: center;
+
+  @include breakpoint($medium) {
+    float: right;
+    text-align: right;
+  }
+}

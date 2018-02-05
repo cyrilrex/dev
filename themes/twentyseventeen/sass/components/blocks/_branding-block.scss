@@ -1,0 +1,18 @@
+/**
+ * @file This file styles the branding block items.
+ */
+
+.block-system-branding-block {
+  .site-logo {
+    float: left;
+  }
+  .site-name {
+    a {
+      color: $white;
+      font-size: 2.25rem;
+      font-weight: 800;
+      text-decoration: none;
+      text-shadow: 1px 1px 1px $black;
+    }
+  }
+}

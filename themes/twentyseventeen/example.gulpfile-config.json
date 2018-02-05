@@ -1,0 +1,8 @@
+{
+    "browserSync" : {
+      "proxy" : "twentyseventeen.local"
+    },
+    "sass" : {
+      "outputStyle" : "compressed"
+    }
+}

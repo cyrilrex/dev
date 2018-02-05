@@ -1,0 +1,16 @@
+gym-style:
+  version: 1.x
+  css:
+    base:
+      css/base/elements.css: {}
+    component:
+      css/components/bootstrap.css: {}
+      css/components/bootstrap.min.css: {}
+      css/components/bootstrap-grid.min.css: {}
+      css/components/style.css: {}
+  js:
+    js/bootstrap.min.js: {}  
+    js/bootstrap.js: {} 
+    js/custom.js: {} 
+
+

@@ -1,0 +1,14 @@
+/**
+ * @file
+ * This file creates the styling for the blockquote element.
+ */
+
+blockquote {
+  color: $colour-grey-medium-lighter;
+  font-size: $h3-font-size;
+  font-style: italic;
+  line-height: 1.7;
+  margin: 0;
+  overflow: hidden;
+  padding: 0;
+}

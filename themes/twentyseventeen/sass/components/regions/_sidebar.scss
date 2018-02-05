@@ -1,0 +1,28 @@
+/**
+ * @file
+ * This file that creates the CSS for the sidebar region(s).
+ */
+
+.region-sidebar-second .block {
+  margin-bottom: 3rem;
+}
+
+.region-sidebar-second .block-menu .menu {
+  margin: 0;
+}
+
+.region-sidebar-second .block-menu .menu .menu-item {
+  border-top: 1px solid $colour-grey-lightest;
+  padding: 0.5rem 0;
+  &:last-of-type {
+    border-bottom: 1px solid $colour-grey-lightest;
+  }
+  a {
+    text-decoration: none;
+    &:focus,
+    &:hover {
+      border-bottom: 3px solid $black;
+      color: $black;
+    }
+  }
+}

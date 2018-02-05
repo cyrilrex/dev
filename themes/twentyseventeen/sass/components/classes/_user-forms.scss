@@ -1,0 +1,76 @@
+/**
+ * @file
+ * This file is used to style the user-form classes.
+ */
+
+.user-forms .centered-xy {
+  top: 50%;
+}
+
+.user-forms form {
+  text-align: left;
+}
+
+.user-forms .block-local-tasks-block {
+  text-align: center;
+}
+
+.user-forms .block-local-tasks-block ul.tabs {
+  @include breakpoint($large) {
+    display: flex;
+    justify-content: space-between;
+  }
+  > li {
+    display: block;
+    margin: 0 auto;
+    width: 340px;
+    @include breakpoint($large) {
+      margin: 0;
+      width: auto;
+    }
+  }
+  a {
+    color: $colour-primary;
+    padding: .5rem 1rem;
+    &.is-active,
+    &:focus,
+    &:hover {
+      color: $white;
+      background: $colour-primary;
+    }
+  }
+}
+
+.user-forms .page-title {
+  margin: 2rem 0 3rem;
+  width: 100%;
+}
+
+.user-forms form .form-item {
+  margin: 2rem auto;
+  max-width: 340px;
+  @include breakpoint($large) {
+    max-width: none;
+  }
+}
+
+.user-forms form .form-item label {
+  font-weight: bold;
+}
+
+.user-forms form .form-item input {
+  max-width: 100%;
+}
+
+.user-forms .back-to-site {
+  bottom: 8px;
+  position: absolute;
+  right: 0;
+  a {
+    color: $colour-primary;
+  }
+}
+
+.user-forms__register .back-to-site {
+  position: relative;
+}

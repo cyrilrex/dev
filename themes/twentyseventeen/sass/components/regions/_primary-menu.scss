@@ -1,0 +1,59 @@
+/**
+ * @file
+ * This file that creates the CSS for the primary menu region.
+ */
+
+.toolbar-fixed .primary-menu {
+  top: 39px;
+}
+
+.toolbar-tray-open .primary-menu {
+  top: 80px;
+}
+
+.layout-primary-menu {
+  background: $white;
+  padding-top: 0.5rem;
+}
+
+.primary-menu {
+  position: relative;
+  z-index: 500;
+  top: 0;
+  right: 0;
+  left: 0;
+}
+
+.region-primary-menu {
+  font-size: $h4-font-size;
+}
+
+.region-primary-menu .menu {
+  margin: 0;
+}
+
+.region-primary-menu .menu .menu-item {
+  padding: 0.5rem 1rem 0;
+  @include breakpoint ($large) {
+    display: inline-block;
+    margin-right: -4px;
+    &:nth-child(1) {
+      padding-left: 0;
+    }
+  }
+}
+
+.region-primary-menu .menu .menu-item a {
+  border-bottom: 3px solid $white;
+  display: block;
+  color: $colour-primary;
+  padding-bottom: 0.5rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  &:focus,
+  &:hover,
+  &.is-active {
+    border-bottom: 3px solid $black;
+    color: $black;
+  }
+}
